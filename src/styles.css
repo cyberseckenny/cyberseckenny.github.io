@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.page-container {
+  color: #fff;
+  background-color: #262521;
+}
+
+.page {
+  width: 900px;
+  margin: 0 auto;
+
+  display: flex;
+}
+
+.header {
+  padding: 20px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 75%;
+}
