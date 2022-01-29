@@ -34,14 +34,14 @@
   margin-top: 45px;
 }
 
-.navbar > li {
+.navbar li {
   display: inline;
   font-size: 1.2em;
   text-shadow: 7px 7px 8px black;
   margin-right: 45px;
 }
 
-.navbar > li:last-of-type {
+.navbar li:last-of-type {
   margin-right: 0px;
 }
 
@@ -116,5 +116,22 @@ a:hover {
 }
 
 .feature-box:last-of-type {
+  margin-right: 0px;
+}
+
+.footer {
+  height: 25px;
+  background-color: #1b1a17;
+
+  display: flex;
+  justify-content: center;
+}
+
+.footer li {
+  display: inline;
+  margin-right: 100px;
+}
+
+.footer li:last-of-type {
   margin-right: 0px;
 }
