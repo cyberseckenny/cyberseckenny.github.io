@@ -15,13 +15,15 @@
   margin: 0 auto;
 
   display: flex;
+  flex-direction: column;
+  padding: 10px;
 }
 
 .header {
-  padding: 20px;
+  padding-top: 20px;
   height: 140px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .logo img {
@@ -29,12 +31,13 @@
 }
 
 .navbar {
-  margin-top: 50px;
+  margin-top: 45px;
 }
 
 .navbar > li {
   display: inline;
   margin-right: 45px;
+  font-size: 1.2em;
 }
 
 .navbar > li:last-of-type {
@@ -45,4 +48,27 @@ a:link,
 a:visited {
   color: #fff;
   text-decoration: none;
+}
+
+.features {
+  display: flex;
+  justify-content: row;
+}
+
+.feature-box {
+  background-color: #171714;
+  border-radius: 9px;
+  width: 350px;
+
+  padding: 15px;
+  margin-right: 10px;
+}
+
+.feature-box h2 {
+  margin-bottom: 10px;
+  font-size: 1.25em;
+}
+
+.feature-box:last-of-type {
+  margin-right: 0px;
 }
