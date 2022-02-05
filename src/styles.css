@@ -235,12 +235,12 @@ a:hover {
   }
 
   .navbar li {
-    margin-right: 10px;
-    font-size: 1.1em;
+    margin-right: 5px;
+    font-size: 1.04em;
   }
 
   .title-image {
-    background-size: 140%;
+    background-size: 200%;
   }
 
   .world-image {
