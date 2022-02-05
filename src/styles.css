@@ -70,7 +70,6 @@ p {
 
 .navbar li {
   display: inline;
-  text-shadow: 7px 7px 8px black;
   margin-right: 45px;
 }
 
@@ -151,7 +150,7 @@ a:hover {
 }
 
 .footer {
-  padding: 35px 0;
+  padding: 35px 15px;
 
   display: flex;
   justify-content: space-between;
@@ -173,11 +172,7 @@ a:hover {
   margin-bottom: 8px;
 }
 
-.footer-contact,
-.footer-company,
-.footer-links,
-.footer-contact-support,
-.footer-contact-abuse {
+.footer-item {
   display: flex;
   flex-direction: column;
 
@@ -187,9 +182,101 @@ a:hover {
 .footer-company-title {
   display: flex;
   align-items: center;
+  flex-direction: row;
 }
 
 .footer-company-title a {
   font-size: 0.85em;
   margin: 0 5px;
+}
+
+/* || Media Queries */
+
+/* Mobile Stlyes */
+@media only screen and (max-width: 450px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  h3 {
+    font-size: 1.1em;
+  }
+
+  h4 {
+    font-size: 1.05em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  .page-container {
+    padding: 20px;
+  }
+
+  .page,
+  .footer {
+    width: 100%;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+
+  .navbar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .navbar li {
+    margin-right: 10px;
+    font-size: 1.1em;
+  }
+
+  .title-image {
+    background-size: 140%;
+  }
+
+  .world-image {
+    background-repeat: no-repeat;
+    background-position: -90px;
+  }
+
+  .features {
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .feature-box {
+    margin: 0px 0px 20px 0px;
+    width: 100%;
+  }
+
+  .transition {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-item {
+    margin: 0px 0px 30px 0px;
+  }
+
+  .footer-company-title {
+    align-items: center;
+  }
+
+  .footer-contact-support {
+    margin-bottom: 5px;
+  }
 }
