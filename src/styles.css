@@ -10,10 +10,13 @@
   background-color: #262521;
 }
 
-.page {
+.page,
+.footer {
   width: 900px;
   margin: 0 auto;
+}
 
+.page {
   display: flex;
   flex-direction: column;
   padding: 10px 0px 30px 10px;
@@ -119,12 +122,55 @@ a:hover {
   margin-right: 0px;
 }
 
-.footer {
-  height: 25px;
+.footer-container {
   background-color: #1b1a17;
+}
+
+.footer {
+  padding: 35px 0;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+.footer-contact p,
+.footer-company p,
+.footer-links li {
+  margin: 10px 0;
+  font-size: 1.055555em;
+}
+
+.footer-contact h3,
+.footer-links h3 {
+  font-size: 1em;
+  margin-bottom: 12px;
+
+  display: flex;
+}
+
+.footer-abuse li {
+  display: block;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-company {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-company img,
+.footer-links img {
+  margin-bottom: 8px;
+  width: 50px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer li {
