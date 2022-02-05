@@ -1,12 +1,39 @@
+/* || GENERAL STYLES */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.page-container {
+body {
   font-family: sans-serif;
   color: #fff;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.9em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+p {
+  font-size: 1.05em;
+}
+
+/* || SITEWIDE */
+
+.page-container {
   background-color: #262521;
 }
 
@@ -21,6 +48,10 @@
   flex-direction: column;
   padding: 10px 0px 30px 10px;
 }
+
+/* || HOME PAGE */
+
+/* || Header */
 
 .header {
   padding-top: 20px;
@@ -39,7 +70,6 @@
 
 .navbar li {
   display: inline;
-  font-size: 1.2em;
   text-shadow: 7px 7px 8px black;
   margin-right: 45px;
 }
@@ -57,6 +87,8 @@ a:visited {
 a:hover {
   color: darkseagreen;
 }
+
+/* || Body */
 
 .introduction {
   width: 100%;
@@ -80,18 +112,9 @@ a:hover {
   height: 505px;
 }
 
-.introduction p {
-  font-size: 1.3em;
-  width: 550px;
-}
-
 .transition {
   margin-bottom: 30px;
   margin-top: 50px;
-}
-
-.transition h2 {
-  font-size: 1.9em;
 }
 
 .features {
@@ -113,14 +136,15 @@ a:hover {
   box-shadow: 5px 5px 5px black;
 }
 
-.feature-box h3 {
+.feature-box h4 {
   margin-bottom: 10px;
-  font-size: 1.25em;
 }
 
 .feature-box:last-of-type {
   margin-right: 0px;
 }
+
+/* || Footer */
 
 .footer-container {
   background-color: #1b1a17;
@@ -130,54 +154,42 @@ a:hover {
   padding: 35px 0;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+
+  list-style: none;
 }
 
-.footer-contact p,
-.footer-company p,
-.footer-links li {
-  margin: 10px 0;
-  font-size: 1.055555em;
-}
-
-.footer-contact h3,
-.footer-links h3 {
-  font-size: 1em;
-  margin-bottom: 12px;
-
-  display: flex;
-}
-
-.footer-abuse li {
-  display: block;
-}
-
-.footer-contact {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-company {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-company img,
-.footer-links img {
-  margin-bottom: 8px;
-  width: 50px;
-}
-
-.footer-links {
-  display: flex;
-  flex-direction: column;
+.footer img {
+  width: 30px;
 }
 
 .footer li {
-  display: inline;
-  margin-right: 100px;
+  margin-bottom: 8px;
 }
 
-.footer li:last-of-type {
-  margin-right: 0px;
+.footer-contact h4,
+.footer-links h4 {
+  margin-bottom: 8px;
+}
+
+.footer-contact,
+.footer-company,
+.footer-links,
+.footer-contact-support,
+.footer-contact-abuse {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 10px;
+}
+
+.footer-company-title {
+  display: flex;
+  align-items: center;
+}
+
+.footer-company-title a {
+  font-size: 0.85em;
+  margin: 0 5px;
 }
