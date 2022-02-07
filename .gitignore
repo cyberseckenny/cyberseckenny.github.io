@@ -1,2 +1,5 @@
 # added to ignore vim session files
 *.vim
+
+# ignores pdf for frontend description
+*.pdf
