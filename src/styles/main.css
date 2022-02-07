@@ -49,8 +49,6 @@ p {
   padding: 10px 5px 30px 5px;
 }
 
-/* || HOME PAGE */
-
 /* || Header */
 
 .header {
@@ -85,62 +83,6 @@ a:visited {
 
 a:hover {
   color: darkseagreen;
-}
-
-/* || Body */
-
-.introduction {
-  width: 100%;
-  height: 300px;
-  border-radius: 9px;
-
-  padding: 15px;
-
-  background-color: #1b1a17;
-  box-shadow: 5px 5px 5px black;
-}
-
-.title-image {
-  background-image: url("images/servers.jpg");
-  background-size: 120%;
-}
-
-.world-image {
-  margin-top: 20px;
-  background-image: url("images/world_map.png");
-  height: 505px;
-}
-
-.transition {
-  margin-bottom: 30px;
-  margin-top: 50px;
-}
-
-.features {
-  display: flex;
-  justify-content: row;
-
-  height: 200px;
-  margin-bottom: 10px;
-}
-
-.feature-box {
-  background-color: #1b1a17;
-  border-radius: 9px;
-  width: 350px;
-
-  padding: 15px;
-  margin-right: 10px;
-
-  box-shadow: 5px 5px 5px black;
-}
-
-.feature-box h4 {
-  margin-bottom: 10px;
-}
-
-.feature-box:last-of-type {
-  margin-right: 0px;
 }
 
 /* || Footer */
@@ -239,30 +181,6 @@ a:hover {
     font-size: 1.04em;
   }
 
-  .title-image {
-    background-size: 200%;
-  }
-
-  .world-image {
-    background-repeat: no-repeat;
-    background-position: -90px;
-  }
-
-  .features {
-    height: 100%;
-    flex-direction: column;
-  }
-
-  .feature-box {
-    margin: 0px 0px 20px 0px;
-    width: 100%;
-  }
-
-  .transition {
-    margin-top: 30px;
-    margin-bottom: 20px;
-  }
-
   .footer {
     flex-direction: column;
     align-items: flex-start;
@@ -309,16 +227,6 @@ a:hover {
 
   .page,
   .footer {
-    width: 100%;
-  }
-
-  .features {
-    height: 100%;
-    flex-direction: column;
-  }
-
-  .feature-box {
-    margin: 0px 0px 20px 0px;
     width: 100%;
   }
 

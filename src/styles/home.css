@@ -1,0 +1,96 @@
+/* || HOME PAGE */
+
+.introduction {
+  width: 100%;
+  height: 300px;
+  border-radius: 9px;
+
+  padding: 15px;
+
+  background-color: #1b1a17;
+  box-shadow: 5px 5px 5px black;
+}
+
+.title-image {
+  background-image: url("../images/servers.jpg");
+  background-size: 120%;
+}
+
+.world-image {
+  margin-top: 20px;
+  background-image: url("../images/world_map.png");
+  height: 505px;
+}
+
+.transition {
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.features {
+  display: flex;
+  justify-content: row;
+
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.feature-box {
+  background-color: #1b1a17;
+  border-radius: 9px;
+  width: 350px;
+
+  padding: 15px;
+  margin-right: 10px;
+
+  box-shadow: 5px 5px 5px black;
+}
+
+.feature-box h4 {
+  margin-bottom: 10px;
+}
+
+.feature-box:last-of-type {
+  margin-right: 0px;
+}
+
+/* || Media Queries */
+
+/* Mobile Styles */
+@media only screen and (max-width: 450px) {
+  .title-image {
+    background-size: 200%;
+  }
+
+  .world-image {
+    background-repeat: no-repeat;
+    background-position: -90px;
+  }
+
+  .features {
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .feature-box {
+    margin: 0px 0px 20px 0px;
+    width: 100%;
+  }
+
+  .transition {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 950px) {
+  .features {
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .feature-box {
+    margin: 0px 0px 20px 0px;
+    width: 100%;
+  }
+}
