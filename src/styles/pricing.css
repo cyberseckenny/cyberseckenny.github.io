@@ -1,0 +1,22 @@
+/* || PRICING */
+
+.plan {
+  width: 100%;
+  height: 300px;
+  border-radius: 9px;
+
+  padding: 15px;
+
+  background-color: #1b1a17;
+  box-shadow: 5px 5px 5px black;
+
+  list-style: none;
+}
+
+.icon-yes {
+  color: lightgreen;
+}
+
+.icon-no {
+  color: crimson;
+}
