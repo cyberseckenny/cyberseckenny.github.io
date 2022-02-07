@@ -192,7 +192,7 @@ a:hover {
 
 /* || Media Queries */
 
-/* Mobile Stlyes */
+/* Mobile Styles */
 @media only screen and (max-width: 450px) {
   h1 {
     font-size: 1.5em;
@@ -278,5 +278,55 @@ a:hover {
 
   .footer-contact-support {
     margin-bottom: 5px;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 451px) and (max-width: 950px) {
+  h1 {
+    font-size: 2.2em;
+  }
+
+  h2 {
+    font-size: 1.6em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  h4 {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: 0.95em;
+  }
+
+  .page-container {
+    padding: 20px;
+  }
+
+  .page,
+  .footer {
+    width: 100%;
+  }
+
+  .features {
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .feature-box {
+    margin: 0px 0px 20px 0px;
+    width: 100%;
+  }
+
+  .navbar li {
+    margin-right: 13px;
+  }
+
+  .footer {
+    font-size: 0.9em;
   }
 }
