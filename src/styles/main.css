@@ -225,6 +225,10 @@ a:hover {
     padding: 20px;
   }
 
+  .footer-container {
+    padding: 20px;
+  }
+
   .page,
   .footer {
     width: 100%;
