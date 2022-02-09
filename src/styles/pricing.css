@@ -1,18 +1,24 @@
 /* || PRICING */
 
-.plan {
-  width: 100%;
-  height: 300px;
+.features {
   border-radius: 9px;
-
-  padding: 15px;
+  border-collapse: collapse;
 
   background-color: #1b1a17;
   box-shadow: 5px 5px 5px black;
 }
 
-.plan table {
-  border: 2px solid rgb(200, 200, 200);
+.features td,
+.features th {
+  padding: 10px 20px;
+}
+
+.features th {
+  text-align: left;
+}
+
+.features tr:nth-child(even) {
+  background-color: #24231f;
 }
 
 .icon-yes {
