@@ -6,11 +6,13 @@
 
   background-color: #1b1a17;
   box-shadow: 5px 5px 5px black;
+
+  width: 100%;
 }
 
 .features td,
 .features th {
-  padding: 10px 20px;
+  padding: 10px 10px;
 }
 
 .features th {
@@ -21,17 +23,16 @@
   background-color: #24231f;
 }
 
-/* First row of headers */
-.features th:nth-child(1) {
-  width: 200px;
-}
-
 .features h4 {
+  font-size: 1em; /* Prevents font size from scaling so large */
+
   font-weight: normal;
-  margin-bottom: 7px;
+  margin-bottom: 5px;
 }
 
 .features p {
+  font-size: 1em;
+
   color: lightgreen;
 }
 
@@ -41,4 +42,23 @@
 
 .icon-no {
   color: crimson;
+}
+
+/* || Media Queries */
+
+/* Mobile Styles */
+@media only screen and (max-width: 450px) {
+  .features {
+    font-size: 0.85em;
+  }
+
+  .features td,
+  .features th {
+    padding: 10px 5px;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 451px) and (max-width: 950px) {
+  /* Nothing! :) */
 }
