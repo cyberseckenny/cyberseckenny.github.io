@@ -44,6 +44,19 @@
   color: crimson;
 }
 
+.enterprise {
+  margin-top: 40px;
+}
+
+.enterprise h2 {
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.enterprise a:link {
+  color: darkseagreen;
+}
+
 /* || Media Queries */
 
 /* Mobile Styles */
