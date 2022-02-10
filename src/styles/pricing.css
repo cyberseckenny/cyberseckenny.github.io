@@ -21,6 +21,19 @@
   background-color: #24231f;
 }
 
+/* First row of headers */
+.features th:nth-child(1) {
+  width: 200px;
+}
+
+.features h4 {
+  font-weight: normal;
+}
+
+.features p {
+  color: lightgreen;
+}
+
 .icon-yes {
   color: lightgreen;
 }
