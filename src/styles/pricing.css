@@ -36,6 +36,24 @@
   color: lightgreen;
 }
 
+.features button {
+  font-weight: bold;
+  font-size: 1.2em;
+
+  padding: 10px;
+  width: 100%;
+
+  border: none;
+  border-radius: 5px;
+
+  color: #fff;
+  background-color: seagreen;
+}
+
+.features button:hover {
+  background-color: #3ebc76;
+}
+
 .icon-yes {
   color: lightgreen;
 }
