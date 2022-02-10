@@ -72,8 +72,13 @@
   margin-bottom: 5px;
 }
 
-.enterprise a:link {
+.enterprise a:link,
+.enterprise a:visited {
   color: lightgreen;
+}
+
+.enterprise a:hover {
+  color: #bcf5bc;
 }
 
 /* || Media Queries */
