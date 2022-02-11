@@ -1,0 +1,62 @@
+.mitigation {
+  display: flex;
+}
+
+.mitigation-side {
+  display: flex;
+  flex-direction: column;
+
+  width: 50%;
+}
+
+.mitigation-side:first-of-type {
+  margin-right: 15px;
+}
+
+.mitigation-item {
+  width: 100%;
+  border-radius: 9px;
+  padding: 15px;
+  margin-bottom: 20px;
+
+  background-color: #1b1a17;
+  box-shadow: 5px 5px 5px black;
+}
+
+.mitigation-header {
+  height: 300px;
+}
+
+.mitigation-header h2 {
+  font-weight: normal;
+}
+
+.mitigation-types {
+  display: flex;
+  flex-wrap: wrap;
+
+  height: 500px;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.mitigation-types-header {
+  font-weight: normal;
+
+  text-align: center;
+}
+
+.mitigation-type {
+  display: flex;
+  width: 48%;
+  height: 33%;
+}
+
+.mitigation-type h3 {
+  margin: auto auto;
+  font-weight: normal;
+}
+
+.mitigation-types-header h4 {
+  font-weight: normal;
+}
