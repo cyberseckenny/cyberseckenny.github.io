@@ -7,11 +7,11 @@
   flex-direction: column;
 
   width: 50%;
-  height: 650px;
+  height: 720px;
 }
 
 .mitigation-side:first-of-type {
-  margin-right: 15px;
+  margin-right: 40px;
 }
 
 .mitigation-item {
@@ -42,21 +42,24 @@
   flex-wrap: wrap;
 
   height: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: space-between;
 }
 
 .mitigation-types-header {
   font-weight: normal;
 
-  text-align: center;
+  background-image: url("../images/globe.png");
+  background-size: 160%;
 
   margin-bottom: 25px;
+
+  height: 350px;
 }
 
 .mitigation-type {
   display: flex;
-  width: 43%;
+  width: 46%;
   height: 29%;
 }
 
@@ -65,7 +68,7 @@
   font-weight: normal;
 }
 
-.mitigation-types-header h4 {
+.mitigation-types-header h2 {
   font-weight: normal;
 }
 
