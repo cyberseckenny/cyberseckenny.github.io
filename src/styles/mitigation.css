@@ -71,3 +71,7 @@
 .mitigation-types-header h2 {
   font-weight: normal;
 }
+
+.mitigation-feature {
+  font-size: 0.95em;
+}
