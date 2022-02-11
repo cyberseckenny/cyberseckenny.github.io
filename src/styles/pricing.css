@@ -1,6 +1,6 @@
 /* || PRICING */
 
-.features {
+.plan-features {
   border-radius: 9px;
   border-collapse: collapse;
 
@@ -10,33 +10,33 @@
   width: 100%;
 }
 
-.features td,
-.features th {
+.plan-features td,
+.plan-features th {
   padding: 10px 10px;
 }
 
-.features th {
+.plan-features th {
   text-align: left;
 }
 
-.features tr:nth-child(even) {
+.plan-features tr:nth-child(even) {
   background-color: #24231f;
 }
 
-.features h4 {
+.plan-features h4 {
   font-size: 1em; /* Prevents font size from scaling so large */
 
   font-weight: normal;
   margin-bottom: 5px;
 }
 
-.features p {
+.plan-features p {
   font-size: 1em;
 
   color: lightgreen;
 }
 
-.features button {
+.plan-features button {
   font-weight: bold;
   font-size: 1em;
 
@@ -51,7 +51,7 @@
   background-color: seagreen;
 }
 
-.features button:hover {
+.plan-features button:hover {
   background-color: #3ebc76;
 }
 
@@ -85,23 +85,23 @@
 
 /* Mobile Styles */
 @media only screen and (max-width: 450px) {
-  .features {
+  .plan-features {
     font-size: 0.85em;
   }
 
-  .features td,
-  .features th {
+  .plan-features td,
+  .plan-features th {
     padding: 10px 5px;
   }
 
-  .features button {
+  .plan-features button {
     font-size: 0.8em;
   }
 }
 
 /* Tablet Styles */
 @media only screen and (min-width: 451px) and (max-width: 950px) {
-  .features button {
+  .plan-features button {
     font-size: 0.9em;
   }
 }
