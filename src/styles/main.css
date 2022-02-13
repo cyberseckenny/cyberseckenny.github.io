@@ -52,8 +52,9 @@ p {
 /* || Header */
 
 .header {
-  padding-top: 20px;
-  height: 140px;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  height: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -63,16 +64,16 @@ p {
 }
 
 .navbar {
-  margin-top: 45px;
+  margin-top: 3em;
 }
 
 .navbar li {
   display: inline;
-  margin-right: 45px;
+  margin-right: 4em;
 }
 
 .navbar li:last-of-type {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 a:link,
@@ -92,7 +93,7 @@ a:hover {
 }
 
 .footer {
-  padding: 35px 15px;
+  padding: 3em 2em;
 
   display: flex;
   justify-content: space-between;
