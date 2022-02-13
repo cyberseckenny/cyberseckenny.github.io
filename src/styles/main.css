@@ -76,6 +76,10 @@ p {
   margin-right: 0;
 }
 
+.selected {
+  color: lightgreen;
+}
+
 a:link,
 a:visited {
   color: #fff;
