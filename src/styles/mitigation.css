@@ -19,8 +19,8 @@
 .mitigation-item {
   width: 100%;
   border-radius: 9px;
-  padding: 15px;
-  margin-bottom: 15px;
+  padding: 1em;
+  margin-bottom: 1em;
 
   background-color: #1b1a17;
   box-shadow: 9px 9px 9px black;
@@ -76,6 +76,10 @@
 
 .mitigation-feature {
   font-size: 0.95em;
+}
+
+.mitigation-feature h3 {
+  margin-bottom: 0.5em;
 }
 
 /* || Media Queries */
