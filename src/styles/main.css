@@ -178,12 +178,11 @@ a:hover {
 
   .navbar {
     margin-top: 20px;
-    margin-bottom: 20px;
   }
 
   .navbar li {
-    margin-right: 5px;
-    font-size: 1.04em;
+    margin-right: 3px;
+    font-size: 1em;
   }
 
   .footer {

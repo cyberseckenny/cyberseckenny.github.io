@@ -141,4 +141,9 @@
     width: 49%;
     height: 100px;
   }
+
+  .features {
+    max-width: 500px;
+    margin: 0 auto;
+  }
 }
