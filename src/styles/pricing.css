@@ -27,7 +27,7 @@
   font-size: 1em; /* Prevents font size from scaling so large */
 
   font-weight: normal;
-  margin-bottom: 5px;
+  margin-bottom: 0.5em;
 }
 
 .plan-features p {
