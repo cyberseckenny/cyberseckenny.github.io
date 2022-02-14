@@ -29,7 +29,6 @@
 
 .features {
   display: flex;
-  justify-content: row;
 
   height: 100%;
   margin-bottom: 10px;
@@ -41,6 +40,7 @@
 
   padding: 15px;
   margin-right: 1em;
+  margin-bottom: 1em;
 
   box-shadow: 9px 9px 9px black;
 }
@@ -84,13 +84,20 @@
 
 /* Tablet Styles */
 @media only screen and (min-width: 451px) and (max-width: 950px) {
+  .mid-section {
+    max-width: 500px;
+
+    margin: 0 auto;
+  }
+
   .features {
-    height: 100%;
+    margin: 0 auto;
     flex-direction: column;
   }
 
   .feature-box {
-    margin: 0px 0px 20px 0px;
+    margin-right: 0;
     width: 100%;
+    max-width: 550px;
   }
 }
