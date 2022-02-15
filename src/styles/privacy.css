@@ -19,6 +19,10 @@
   width: 85%;
 }
 
+.privacy br {
+  margin: 1em;
+}
+
 .privacy a:link,
 .privacy a:visited {
   color: lightgreen;
