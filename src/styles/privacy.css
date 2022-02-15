@@ -1,0 +1,29 @@
+.privacy h1,
+.privacy h2 {
+  margin-bottom: 0.5em;
+}
+
+.privacy p {
+  margin-bottom: 0.5em;
+}
+
+.privacy ul {
+  margin-left: 3em;
+}
+
+.privacy hr {
+  border: none;
+  height: 1px;
+  background-color: #555;
+  margin: 2em auto;
+  width: 85%;
+}
+
+.privacy a:link,
+.privacy a:visited {
+  color: lightgreen;
+}
+
+.privacy a:hover {
+  color: #bcf5bc;
+}
