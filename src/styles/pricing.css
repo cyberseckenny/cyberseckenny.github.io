@@ -55,6 +55,11 @@
   background-color: #3ebc76;
 }
 
+.icon-yes,
+.icon-no {
+  font-size: 1.5em;
+}
+
 .icon-yes {
   color: lightgreen;
 }
